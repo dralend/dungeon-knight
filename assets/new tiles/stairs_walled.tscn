@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://8rag625cirsp"]
+
+[ext_resource type="PackedScene" uid="uid://1skuis1so7rl" path="res://assets/KayKit_DungeonRemastered_1.1_EXTRA/Assets/gltf/stairs_walled.gltf" id="1_fcchw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2dfp4"]
+size = Vector3(3.7260437, 1, 3.9221315)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_t6sgj"]
+size = Vector3(3.2252197, 0.92004395, 5.376526)
+
+[node name="stairs_walled2" unique_id=334442458 instance=ExtResource("1_fcchw")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="stairs_walled" parent_id_path=PackedInt32Array(472124990) index="0" unique_id=415520833]
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="stairs_walled/StaticBody3D" index="0" unique_id=878961614]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 2.000468, 2.1401095, 2.0093517)
+shape = SubResource("BoxShape3D_2dfp4")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="stairs_walled/StaticBody3D" index="1" unique_id=827159082]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -1.9997299, 2.1401095, 2.0444627)
+shape = SubResource("BoxShape3D_2dfp4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="stairs_walled/StaticBody3D" index="2" unique_id=864874917]
+transform = Transform3D(1, 0, 0, 0, 0.73667574, -0.6762462, 0, 0.6762462, 0.73667574, 0.121398926, 1.8469697, 1.9055276)
+shape = SubResource("BoxShape3D_t6sgj")
