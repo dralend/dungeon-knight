@@ -7,7 +7,7 @@ data = PackedVector3Array(-0.13679999, 0.20979999, 0.25579998, -0.0567, 0.3186, 
 
 [node name="torch_mounted" unique_id=1783344159 instance=ExtResource("1_x81rm")]
 
-[node name="StaticBody3D" type="StaticBody3D" parent="torch_mounted" parent_id_path=PackedInt32Array(953762918) index="0" unique_id=1613276793]
+[node name="StaticBody3D" type="StaticBody3D" parent="torch_mounted" parent_id_path=PackedInt32Array(953762918) index="0" unique_id=488570688]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="torch_mounted/StaticBody3D" index="0" unique_id=436292764]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="torch_mounted/StaticBody3D" index="0" unique_id=24365851]
 shape = SubResource("ConcavePolygonShape3D_5jrsm")
